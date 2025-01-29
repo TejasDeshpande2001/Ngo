@@ -28,20 +28,20 @@ const AppRoutes = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/Ngo/" element={<Home />} />
+        <Route path="/Ngo/about" element={<AboutUs />} />
         {/* <Route path="/contact" element={<ContactUs />} /> */}
-        <Route path="/onedaymeal" element={<OneDayMeal />} />
-        <Route path="/virtualadoption" element={<VirtualAdoption />} />
-        <Route path="/sponsortreatment" element={<SponsorTreatment />} />
-        <Route path="/feedingdrive" element={<FeedingDrive />} />
-        <Route path="/vaccination" element={<VaccinationDrive />} />
-        <Route path="/donation" element={<DonationForm />} />
-        <Route path="/report" element={<ReportingForm />} />
-        <Route path="/animaladoption" element={<AnimalAdoption/>} />
-        <Route path="/contactus" element={<ContactUs/>} />
-        <Route path="/whatwedo" element={<WhatWeDo/>} />
-        <Route path="/videogallery" element={<VideoGallery/>} />
+        <Route path="/Ngo/onedaymeal" element={<OneDayMeal />} />
+        <Route path="/Ngo/virtualadoption" element={<VirtualAdoption />} />
+        <Route path="/Ngo/sponsortreatment" element={<SponsorTreatment />} />
+        <Route path="/Ngo/feedingdrive" element={<FeedingDrive />} />
+        <Route path="/Ngo/vaccination" element={<VaccinationDrive />} />
+        <Route path="/Ngo/donation" element={<DonationForm />} />
+        <Route path="/Ngo/report" element={<ReportingForm />} />
+        <Route path="/Ngo/animaladoption" element={<AnimalAdoption />} />
+        <Route path="/Ngo/contactus" element={<ContactUs />} />
+        <Route path="/Ngo/whatwedo" element={<WhatWeDo />} />
+        <Route path="/Ngo/videogallery" element={<VideoGallery />} />
       </Routes>
       <Sider />
       <Footer />
