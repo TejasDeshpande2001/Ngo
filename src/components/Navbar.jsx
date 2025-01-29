@@ -31,23 +31,23 @@ const Navbar = () => {
 
         {/* Navigation Links for Desktop */}
         <nav className="z-30 hidden items-center space-x-6 font-medium text-white md:flex">
-          <a href="/" className="transition hover:text-gray-200">
+          <a href="/Ngo/" className="transition hover:text-gray-200">
             Home
           </a>
-          <a href="/about" className="transition hover:text-gray-200">
+          <a href="/Ngo/about" className="transition hover:text-gray-200">
             About
           </a>
-          <a href="/contactus" className="transition hover:text-gray-200">
+          <a href="/Ngo/contactus" className="transition hover:text-gray-200">
             Contact Us
           </a>
-          <a href="/report" className="transition hover:text-gray-200">
+          <a href="/Ngo/report" className="transition hover:text-gray-200">
             Report A Case
           </a>
-          <a href="/whatwedo" className="transition hover:text-gray-200">
+          <a href="/Ngo/whatwedo" className="transition hover:text-gray-200">
             What We Do
           </a>
           <a
-            href="/videogallery"
+            href="/Ngo/videogallery"
             className="text-white transition hover:text-gray-200"
           >
             Video Gallery
@@ -64,12 +64,14 @@ const Navbar = () => {
               <option value="" disabled selected>
                 How to Help
               </option>
-              <option value="/feedingdrive">🍲 Feeding Drives</option>
-              <option value="/vaccination">💉 Vaccination Drives</option>
-              <option value="/animaladoption">🐾 Animal Adoption</option>
-              <option value="/onedaymeal">🍛 One Day Meals</option>
-              <option value="/sponsortreatment">🩺 Sponsor Treatments</option>
-              <option value="/virtualadoption">🌐 Virtual Adoption</option>
+              <option value="/Ngo/feedingdrive">🍲 Feeding Drives</option>
+              <option value="/Ngo/vaccination">💉 Vaccination Drives</option>
+              <option value="/Ngo/animaladoption">🐾 Animal Adoption</option>
+              <option value="/Ngo/onedaymeal">🍛 One Day Meals</option>
+              <option value="/Ngo/sponsortreatment">
+                🩺 Sponsor Treatments
+              </option>
+              <option value="/Ngo/virtualadoption">🌐 Virtual Adoption</option>
             </select>
           </div>
 
@@ -110,35 +112,35 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden flex flex-col space-y-4 mt-4">
-          <a href="/" className="text-white transition hover:text-gray-200">
+          <a href="/Ngo/" className="text-white transition hover:text-gray-200">
             Home
           </a>
           <a
-            href="/about"
+            href="/Ngo/about"
             className="text-white transition hover:text-gray-200"
           >
             About
           </a>
           <a
-            href="/contactus"
+            href="/Ngo/contactus"
             className="text-white transition hover:text-gray-200"
           >
             Contact Us
           </a>
           <a
-            href="/report"
+            href="/Ngo/report"
             className="text-white transition hover:text-gray-200"
           >
             Report A Case
           </a>
           <a
-            href="/whatwedo"
+            href="/Ngo/whatwedo"
             className="text-white transition hover:text-gray-200"
           >
             What We Do
           </a>
           <a
-            href="/videogallery"
+            href="/Ngo/videogallery"
             className="text-white transition hover:text-gray-200"
           >
             Video Gallery
@@ -154,12 +156,14 @@ const Navbar = () => {
               <option value="" selected>
                 How To Get Involved
               </option>
-              <option value="/feedingdrive">🍲 Feeding Drives</option>
-              <option value="/vaccination">💉 Vaccination Drives</option>
-              <option value="/animaladoption">🐾 Animal Adoption</option>
-              <option value="/onedaymeal">🍛 One Day Meals</option>
-              <option value="/sponsortreatment">🩺 Sponsor Treatments</option>
-              <option value="/virtualadoption">🌐 Virtual Adoption</option>
+              <option value="/Ngo/feedingdrive">🍲 Feeding Drives</option>
+              <option value="/Ngo/vaccination">💉 Vaccination Drives</option>
+              <option value="/Ngo/animaladoption">🐾 Animal Adoption</option>
+              <option value="/Ngo/onedaymeal">🍛 One Day Meals</option>
+              <option value="/Ngo/sponsortreatment">
+                🩺 Sponsor Treatments
+              </option>
+              <option value="/Ngo/virtualadoption">🌐 Virtual Adoption</option>
             </select>
           </div>
 
